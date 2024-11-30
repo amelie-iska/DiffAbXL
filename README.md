@@ -275,6 +275,9 @@ python train.py # For training.
 ├── data
 │   ├── processed
 │   └── sabdab_chothia
+├── results/sabdab
+│   ├── evaluation
+│   └── training
 ├── CONTRIBUTING.md
 ├── environment.yml
 ├── LICENSE

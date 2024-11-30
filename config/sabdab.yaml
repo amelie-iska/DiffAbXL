@@ -139,6 +139,6 @@ use_maxlength: False       # Whether to enforce a maximum sequence length
 max_length: 450            # Maximum sequence length allowed
 
 # Hardware and logging configurations
-num_gpus: 1                # Number of GPUs to use for training
+num_gpus: 4                # Number of GPUs to use for training
 log_every_n_steps: 100     # Log training metrics every n steps
 val_check_interval: 0.1    # Interval (as a fraction of an epoch) to check validation
