@@ -262,30 +262,44 @@ python train.py # For training.
 ## Structure of the repo
 
 <pre>
-- train.py
-
-- src
-    |-model.py
-    
-- config
-    |-sabdab.yaml
-    
-- utils
-    |-load_data.py
-    |-arguments.py
-    |-model_utils.py
-    |-loss_functions.py
-    ...
-    
-- data
-    |-her2
-    ...
+.
+├── .gitignore
+├── assets
+│   ├── assets/diffabxl_results1.png
+│   ├── assets/diffabxl_results2.png
+│   └── assets/qr_img.png
+├── AUTHORS.md
+├── compute_loglikelihood.py
+├── config
+│   └── config/sabdab.yaml
+├── data
+│   ├── processed
+│   └── sabdab_chothia
+├── CONTRIBUTING.md
+├── environment.yml
+├── LICENSE
+├── pyproject.toml
+├── README.md
+├── requirements.txt
+├── src
+│   └── src/model.py
+├── train.py
+└── utils
+    ├── utils/arguments.py
+    ├── utils/geometry.py
+    ├── utils/load_data.py
+    ├── utils/loss_functions.py
+    ├── utils/model_utils.py
+    ├── utils/protein_constants.py
+    ├── utils/transformations.py
+    ├── utils/utils_diff.py
+    └── utils/utils.py
 </pre>
 
 
 
 ## Experiment tracking
-Weight & Biases can be used to track experiments. It is turned off by default, but can be turned on by changing option in the config file in ```./config/sabdab.yaml```
+Weights & Biases can be used to track experiments. It is turned off by default, but can be turned on by changing option in the config file in ```./config/sabdab.yaml```
 
 
 ## Citing the paper
