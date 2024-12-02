@@ -43,7 +43,7 @@ validate: True              # Run validation during training
 epochs: 10                 # Total number of training epochs
 nth_epoch: 1               # Validate every nth epoch
 validation_size: 20        # Size of validation set
-batch_size: 2              # Training batch size
+batch_size: 8              # Training batch size
 model_save_freq: 1         # Frequency to save the model (every n epochs)
 learning_rate: 0.0001      # Initial learning rate
 min_lr: 1.0e-5             # Minimum learning rate allowed by scheduler
@@ -92,10 +92,13 @@ train_sequence: True       # Train on sequence
 # Antibody-antigen interaction parameters
 contact_distance: 6        # Maximum distance (in Å) for defining contacts between antigen and antibody
 
+# 'fragment_type': {'heavy': 1, 'light_kappa': 2, 'light_lambda': 3, 'antigen': 4}
+
 # Fragment type IDs for different chains
 fragment_type:
   heavy: 1                 # ID for heavy chain
-  light: 2                 # ID for light chain
+  light_kappa: 2           # ID for light chain
+  light_lambda: 4
   antigen: 3               # ID for antigen
 
 # SabDab database filtering settings

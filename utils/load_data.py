@@ -229,7 +229,7 @@ class AbLoader:
     kwargs : dict, optional
         Additional keyword arguments, by default {}.
     """
-    def __init__(self, config, dataset_name, drop_last=True, kwargs={}):
+    def __init__(self, config, dataset_name, drop_last=False, kwargs={}):
         super().__init__()
         bs = config["batch_size"]
         nw = min(8, config["num_workers"])
