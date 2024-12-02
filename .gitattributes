@@ -1,0 +1,1 @@
+foldseek/bin/foldseek filter=lfs diff=lfs merge=lfs -text
