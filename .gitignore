@@ -38,3 +38,5 @@ config/*
 
 # foldseek
 /foldseek/bin/foldseek
+/foldseek/bin/foldseek
+/foldseek/bin/foldseek
