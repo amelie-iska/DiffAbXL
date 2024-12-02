@@ -35,3 +35,6 @@ custom_scripts/*
 # All yaml files under config, except those used for demo and testing
 config/*
 !config/sabdab.yaml
+
+# foldseek
+/foldseek/bin/foldseek
