@@ -37,6 +37,4 @@ config/*
 !config/sabdab.yaml
 
 # foldseek
-/foldseek/bin/foldseek
-/foldseek/bin/foldseek
-/foldseek/bin/foldseek
+# /foldseek/bin/foldseek
